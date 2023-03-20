@@ -4,7 +4,7 @@ let boxes=document.querySelectorAll('.box')
 let drag=null
 let tasksLists = Array.from(document.querySelectorAll('.box'));
 let text
-localStorage.clear()
+//localStorage.clear()
 //rendrHtml()
 if (window.localStorage.getItem("list-1") != null) {
   getListsFromLocalStorage();
