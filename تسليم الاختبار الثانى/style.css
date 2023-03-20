@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(7, 80, 75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 100vh;
+  margin: 0;
+
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  width: 500px;
+  height: 170px;
+  gap: 10px;
+}
+.h2{
+  font-size: 32px;
+  text-align: center;
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 4px;
+}
+.data input{
+padding: 4px;
+outline: none;
+border: 1px solid rgb(7, 80, 75);
+}
+button{
+  cursor: pointer;
+}
+.data button{
+  background-color: rgb(7, 80, 75);
+  color: #fff;
+  border: none;
+  padding: 5px;
+}
+.list{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.box{
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  width: 500px;
+}
+.item{
+  background: rgb(7, 80, 75);
+  padding: 10px;
+  margin: 4px;
+  cursor: move;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.edit{
+  background-color:#2f1d19;
+}
+@media (max-width:944px){
+  .inputs,
+  .list{
+   flex-direction: column; 
+  }
+}
